@@ -108,4 +108,4 @@ python tests/simulate_connection.py     # opens a connection on port 4444
 
 ## Author
 
-YOUR NAME: https://github.com/rahma503
+Rahma Medhat : https://github.com/rahma503
