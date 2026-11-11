@@ -1,0 +1,25 @@
+suspicious_process_names:
+  - mimikatz.exe
+  - nc.exe
+  - netcat
+  - psexec.exe
+
+
+suspicious_parent_child:
+  - parent: winword.exe
+    child: powershell.exe
+  - parent: excel.exe
+    child: cmd.exe
+
+suspicious_paths:
+  - "\\temp\\"
+  - "\\appdata\\local\\temp"
+  - "/tmp/"
+
+suspicious_ports: [4444, 1337, 31337]
+
+monitored_extensions: [".exe", ".dll", ".bat", ".ps1", ".vbs"]
+
+ransomware:
+  files_modified_threshold: 20
+  time_window_seconds: 10

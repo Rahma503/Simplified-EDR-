@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+logs/
+quarantine/
+test_folder/
+*.pyc
